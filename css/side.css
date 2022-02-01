@@ -44,7 +44,7 @@ footer
     background: var(--dark-gray-color);
     padding-right: 1rem;
 }
-footer, p
+footer>p
 {
     color:#9f34ff;
 
