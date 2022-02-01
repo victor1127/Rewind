@@ -1,19 +1,16 @@
 :root
 {
-    --primary-color:whitesmoke;
-    --secondary-color:#BF988A;
-    --third-color:#A66F5B;
+    --primary-color:#C89595;
+    --secondary-color:#EDEDED;
+    --third-color:#6C4A4A;
     --dark-gray-color:#323232;
 }
 
 body
 {
-    background:var(--primary-color);
-}
-
-nav
-{
-    background: var(--dark-gray-color);
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navimg
@@ -47,6 +44,15 @@ footer
     background: var(--dark-gray-color);
     padding-right: 1rem;
 }
+footer, p
+{
+    color:#9f34ff;
+
+}
+.color
+{
+    color:#9f34ff;
+}
 
 .icon
 {
@@ -54,11 +60,11 @@ footer
 }
 .icon a
 {
-    color:var(--third-color);
+    color:#9f34ff;
 }
 .icon a:hover
 {
-    color:var(--primary-color);
+    color:var(--secondary-color);
 }
 
 #imgp
@@ -84,7 +90,7 @@ code[class*="language-"], pre[class*="language-"]
 
 .tecnology
 {
-    color:var(--third-color);
+    color:var(--secondary-color);
     font-size: 3em;
 
 }
