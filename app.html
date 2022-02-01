@@ -73,9 +73,9 @@
                     <input class="form-control mt-3" id="tboxreverse" type="text" placeholder="Enter any word or sentence">
                     <button class="btn btn-dark btn-large px-4 mt-2" id="reversebutton" type="button">Reverse</button>
 
-                    <div class="alert alert-danger mt-5 invisible fade show" id="alert" role="alert">
-                        <h4 class="alert-heading">Result:</h4>
-                        <hr>
+                    <div class="alert mt-4 invisible fade show" id="alert" role="alert">
+                        <h4 class="alert-heading mb-1">Result:</h4>
+                        <hr class="mt-0">
                         <p class="mb-0" id="msg">
                             <!--reversed string message-->
                         </p>
@@ -136,7 +136,7 @@
     <script src="js/side.js"></script>
 
     <script>
-        document.getElementById("reversebutton").addEventListener("click",ReverseString);
+        document.getElementById("reversebutton").addEventListener("click",GetValue);
     </script>
 
 </body>
