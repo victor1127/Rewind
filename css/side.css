@@ -98,3 +98,18 @@ code[class*="language-"], pre[class*="language-"]
 {
     background: var(--secondary-color);
 }
+
+.methodscolor
+{
+    color: var(--secondary-color);
+}
+
+.position
+{
+    margin-top: 7em;
+}
+
+.h5custumcolor
+{
+    color: lightgray;
+}
